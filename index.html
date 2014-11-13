@@ -469,34 +469,60 @@
 			<div class="col-md-8 col-md-offset-2">
 				
 				<!-- FORM -->
-				<form class="contact-form" id="contact" role="form">
+				 <header style="background-position: 0% 0px;" class="header" data-stellar-background-ratio="0.5" id="home">
+<div class="only-logo">
+<img src="css/logo.png" alt="imagem logo">
+</div>
+<!-- SOLID COLOR -->
+<div class="solid-color">
+<!-- -->
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe"
+style="display:none;" onload="if(submitted)
+{window.location='obrigado.html';}"></iframe>
+<form action="https://docs.google.com/forms/d/1MyxdCi6_hUkwNGSsL3KaOrZMaoiVB0ihnnZpYX2br2M/formResponse" method="post"
+target="hidden_iframe" onsubmit="submitted=true;" class="form-horizontal">
+<!-- <form action="https://docs.google.com/forms/d/1MyxdCi6_hUkwNGSsL3KaOrZMaoiVB0ihnnZpYX2br2M/formResponse" method="POST" id="ss-form" target="_self" onsubmit="" class="form-horizontal"> -->
+<fieldset>
+<!-- Form Name -->
+<legend>Contato</legend>
+<!-- Label Nome-->
+<div class="form-group">
+<label class="col-md-4 control-label">Nome</label>
+<div class="col-md-4">
+<input type="text" name="entry.1075385905" value="" class="form-control input-md" id="entry_1075385905" dir="auto" aria-label="Nome " aria-required="true" required="" title="">
+</div>
+</div>
+<!-- Label Email-->
+<div class="form-group">
+<label class="col-md-4 control-label">Email</label>
+<div class="col-md-4">
+<input type="email" name="entry.1442869452" value="" class="form-control input-md" id="entry_1442869452" dir="auto" aria-label="Email Digite um email válido." aria-required="true" required="" title="Digite um email v&aacute;lido.">
+</div>
+</div>
+<!-- Textarea -->
+<div class="form-group">
+<label class="col-md-4 control-label">Mensagem</label>
+<div class="col-md-4">
+<textarea name="entry.1186169155" rows="8" cols="1" class="form-control" id="entry_1186169155" dir="auto" aria-label="Mensagem Digite alguma mensagem" aria-required="true" required=""></textarea>
+</div>
+</div>
+<!-- Button -->
+<div class="form-group">
+<label class="col-md-4 control-label" for="ss-submit"></label>
+<div class="col-md-4">
+<button type="submit" name="submit" value="Submit" id="ss-submit" class="btn btn-primary">Enviar</button>
+</div>
+</div>
+</fieldset>
+</form>
+<!-- -->
+</div>
+<!-- /END SOLID COLOR BG -->
+</header>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 					
-					<!-- IF MAIL SENT SUCCESSFULLY -->
-					<h4 class="success">
-						<i class="icon_check"></i> Your message has been sent successfully.
-					</h4>
-					
-					<!-- IF MAIL SENDING UNSUCCESSFULL -->
-					<h4 class="error">
-						<i class="icon_error-circle_alt"></i> E-mail must be valid and message must be longer than 1 character.
-					</h4>
-					
-					<div class="col-md-6">
-						<input class="form-control input-box" id="name" type="text" name="name" placeholder="Seu nome">
-					</div>
-					
-					<div class="col-md-6">
-						<input class="form-control input-box" id="email" type="email" name="email" placeholder="Seu Email">
-					</div>
-					
-					<div class="col-md-12">
-						<input class="form-control input-box" id="subject" type="text" name="subject" placeholder="Assunto">
-						<textarea class="form-control textarea-box" id="message" rows="8" placeholder="Mensagem"></textarea>
-					</div>
-					
-					<button class="btn btn-primary standard-button2 ladda-button" type="submit" id="submit" name="submit" data-style="expand-left">Enviar Mensagem</button>
-					
-				</form>
+				
 				<!-- /END FORM -->
 				
 			</div>
