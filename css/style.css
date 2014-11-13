@@ -693,7 +693,7 @@ object {
 -----------------------------------------*/
 
 .download {
-    background: url('../images/hackathonfoto.jpg') no-repeat center fixed;
+    background: url('../images/hackathonfoto.JPG') no-repeat center fixed;
     -webkit-background-size: cover;
             background-size: cover;
     color: #ffffff;
